@@ -8,6 +8,7 @@ repositories {
 
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
+    testImplementation 'junit:junit:4.13.1'
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
@@ -17,3 +18,5 @@ test {
         events "passed", "skipped", "failed"
     }
 }
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
