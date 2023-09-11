@@ -38,6 +38,6 @@ public class Funcionario {
     }
 
     public void concederAumento(float valor){
-        this.salario = (float) (0.50 * this.salario + this.salario);
+        this.salario = (float) ((valor/100) * this.salario + this.salario);
     }
 }
